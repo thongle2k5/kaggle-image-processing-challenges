@@ -1,0 +1,50 @@
+#ngưng push datasets
+data/
+datasets/
+broken-eggs/
+*.zip
+*.tar
+*.tar.gz
+
+
+# KAGGLE / COLAB OUTPUT 
+
+/kaggle/working/
+/kaggle/input/
+output/
+outputs/
+results/
+
+
+# PYTHON CACHE
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# JUPYTER
+
+.ipynb_checkpoints/
+
+
+# ENV / CONFIG
+
+.env
+.env.*
+*.log
+
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+
+# MODEL FILES (NẾU CÓ)
+
+*.h5
+*.pt
+*.pth
+*.ckpt
